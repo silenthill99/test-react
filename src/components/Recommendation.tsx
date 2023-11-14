@@ -1,3 +1,5 @@
+import React from "react"
+
 export const Recommendation = () => {
     const currentMonth = new Date().getMonth()
     const isSpring = currentMonth >=2 && currentMonth <= 5

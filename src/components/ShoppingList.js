@@ -1,3 +1,4 @@
+import React from "react"
 import { plantList } from "../datas/plantList"
 import '../styles/ShoppingList.css'
 
