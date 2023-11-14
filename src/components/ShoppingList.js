@@ -19,7 +19,7 @@ export const ShoppingList = () => {
 				{plantList.map((plant) => (
 					<li key={plant.id} className='lmj-plant-item'>
 						{plant.name}
-                        {plant.isSpecialOffer ? <span>Soldes</span> : null}
+                        {plant.isSpecialOffer && <div className="lmj-sales">Soldes</div>}
 					</li>
 				))}
 			</ul>

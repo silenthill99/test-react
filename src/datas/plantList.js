@@ -39,6 +39,7 @@ export const plantList = [
         name: 'aloe',
         category: 'plante grasse',
         id: '8fp',
+        isSpecialOffer: true
     },
     {
         name: 'succulente',
