@@ -1,16 +1,17 @@
-import logo from './logo.svg';
+import logo from '../assets/logo.png';
 import '../styles/App.css';
 import Banner from './Banner';
 import { Cart } from './Cart';
 import { ShoppingList } from './ShoppingList';
-import { Recommendation } from './Recommendation';
 
 
 function App() {
   return (
     <div>
-      <Banner/>
-      <Recommendation/>
+      <Banner>
+        <img src={logo} alt='La maison jungle' className='lmj-logo'/>
+            <h1>La maison jungle</h1>
+      </Banner>
       {/* <Cart/> */}
       <ShoppingList/>
     </div>
