@@ -3,6 +3,7 @@ import { plantList } from "../datas/plantList"
 import '../styles/ShoppingList.css'
 import { CareScale } from "./CareScale"
 import { PlantItem } from "./PlantItem"
+import { YoutubeVideo } from "../datas/YoutubeVideos"
 
 export const ShoppingList = () => {
     const categories = plantList.reduce(
@@ -29,6 +30,7 @@ export const ShoppingList = () => {
                         />
 				))}
 			</ul>
+            <YoutubeVideo id="c-nm_ZclVHs"/>
         </div>
     )
 }

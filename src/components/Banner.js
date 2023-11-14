@@ -1,6 +1,4 @@
 import '../styles/Banner.css'
-import logo from '../assets/logo.png'
-import React from 'react';
 
 function Banner({ children }) {
     return (
